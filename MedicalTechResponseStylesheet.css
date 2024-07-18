@@ -1,0 +1,114 @@
+body {
+	background-color: Darkslategray;
+	font-family: "Times new Roman", Times, serif;
+		font-size: 18px;
+	margin: 40px 75px 30px 75px;
+}
+h1 {
+color: Aquamarine;
+text-align: center;
+}
+p1 {
+    font-family: "Georgia", Times, serif;
+    font-size: 18px;
+}
+p2 {
+	font-family: "Times new Roman", Times, serif;
+	font-size: 16px;
+}
+P3 {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+span.boldtext {
+    font-weight: bold;
+}
+
+span.italictext {
+    font-style: italic;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.responsive { 
+  width: 100%;
+  height: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: Darkslategray;
+}
+
+li.menu {
+  float: left;
+}
+
+li.menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 2px solid black;
+  
+}
+
+li.menu a:hover {
+  background-color: darkseagreen;
+}
+.active {
+	background-color: green;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+table	{
+	width: 50%;
+}
+th, td{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 14px;
+  padding-right:14px;	
+}
+tr:nth-child(even) {
+  background-color: Teal;
+}
+tr:nth-child(odd) {
+  background-color: cadetblue;
+}
+.timer {
+font-size: 45px; 
+font-weight: bold; 
+text-align: center;
+color:red;
+margin-top: 20px;
+}
+.gallery-container {
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.gallery {
+text-align: center;
+margin: 10px;
+}
+.gallery img {
+width: 50%;
+height: 50%;
+max-width: 300px;
+        }
+.desc {
+margin-top: 10px;
+font-size: 1em;
+color: black;
+}
